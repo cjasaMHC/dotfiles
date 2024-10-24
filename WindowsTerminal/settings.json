@@ -1,0 +1,448 @@
+{
+    "$help": "https://aka.ms/terminal-documentation",
+    "$schema": "https://aka.ms/terminal-profiles-schema",
+    "actions": 
+    [
+        {
+            "command": 
+            {
+                "action": "copy",
+                "singleLine": false
+            },
+            "id": "User.copy.644BA8F2",
+            "keys": "ctrl+c"
+        },
+        {
+            "command": "paste",
+            "id": "User.paste",
+            "keys": "ctrl+v"
+        },
+        {
+            "command": 
+            {
+                "action": "splitPane",
+                "split": "auto",
+                "splitMode": "duplicate"
+            },
+            "id": "User.splitPane.A6751878",
+            "keys": "alt+shift+d"
+        },
+        {
+            "command": "find",
+            "id": "User.find",
+            "keys": "ctrl+shift+f"
+        }
+    ],
+    "copyFormatting": "none",
+    "copyOnSelect": false,
+    "defaultProfile": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
+    "newTabMenu": 
+    [
+        {
+            "type": "remainingProfiles"
+        }
+    ],
+    "profiles": 
+    {
+        "defaults": 
+        {
+            "backgroundImage": null,
+            "colorScheme": "SynthwaveAlpha",
+            "cursorHeight": 18,
+            "cursorShape": "filledBox",
+            "elevate": false,
+            "font": 
+            {
+                "cellHeight": "1.2",
+                "face": "ZedMono Nerd Font",
+                "size": 14,
+                "weight": "semi-light"
+            },
+            "opacity": 90,
+            "scrollbarState": "hidden",
+            "useAcrylic": false
+        },
+        "list": 
+        [
+            {
+                "colorScheme": "Dracula+",
+                "commandline": "%SystemRoot%\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+                "font": 
+                {
+                    "face": "VictorMono Nerd Font",
+                    "size": 13,
+                    "weight": "normal"
+                },
+                "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+                "hidden": false,
+                "name": "Windows PowerShell"
+            },
+            {
+                "colorScheme": "Kanagawa",
+                "commandline": "%SystemRoot%\\System32\\cmd.exe",
+                "font": 
+                {
+                    "face": "Inconsolata Nerd Font",
+                    "size": 14,
+                    "weight": "normal"
+                },
+                "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
+                "hidden": false,
+                "name": "Command Prompt"
+            },
+            {
+                "colorScheme": "duckbones",
+                "commandline": "\"C:\\Program Files\\PowerShell\\7\\pwsh.exe\" -NoLogo",
+                "font": 
+                {
+                    "face": "FantasqueSansM Nerd Font",
+                    "weight": "normal"
+                },
+                "guid": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
+                "hidden": false,
+                "name": "PowerShell Core",
+                "source": "Windows.Terminal.PowershellCore"
+            },
+            {
+                "commandline": "C:\\Users\\cjasa\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+                "font": 
+                {
+                    "face": "IosevkaTermSlab Nerd Font Mono"
+                },
+                "guid": "{25e5f262-cc39-44eb-aed3-85f61f844c21}",
+                "hidden": false,
+                "icon": "C:\\Users\\cjasa\\AppData\\Local\\Programs\\Icons\\icons8-python-48.png",
+                "name": "Python"
+            },
+            {
+                "colorScheme": "SynthwaveAlpha",
+                "font": 
+                {
+                    "face": "Iosevka Nerd Font",
+                    "size": 14,
+                    "weight": "normal"
+                },
+                "guid": "{2ece5bfe-50ed-5f3a-ab87-5cd4baafed2b}",
+                "hidden": false,
+                "name": "Git Bash",
+                "source": "Git"
+            },
+            {
+                "colorScheme": "Japanesque",
+                "guid": "{51855cb2-8cce-5362-8f54-464b92b32386}",
+                "hidden": false,
+                "name": "Ubuntu",
+                "source": "CanonicalGroupLimited.Ubuntu_79rhkp1fndgsc"
+            },
+            {
+                "guid": "{2c4de342-38b7-51cf-b940-2309a097f518}",
+                "hidden": true,
+                "name": "Ubuntu",
+                "source": "Windows.Terminal.Wsl"
+            }
+        ]
+    },
+    "schemes": 
+    [
+        {
+            "background": "#303446",
+            "black": "#51576D",
+            "blue": "#8CAAEE",
+            "brightBlack": "#626880",
+            "brightBlue": "#8CAAEE",
+            "brightCyan": "#81C8BE",
+            "brightGreen": "#A6D189",
+            "brightPurple": "#F4B8E4",
+            "brightRed": "#E78284",
+            "brightWhite": "#A5ADCE",
+            "brightYellow": "#E5C890",
+            "cursorColor": "#F2D5CF",
+            "cyan": "#81C8BE",
+            "foreground": "#C6D0F5",
+            "green": "#A6D189",
+            "name": "Catppuccin Frappe",
+            "purple": "#F4B8E4",
+            "red": "#E78284",
+            "selectionBackground": "#626880",
+            "white": "#B5BFE2",
+            "yellow": "#E5C890"
+        },
+        {
+            "background": "#24273A",
+            "black": "#494D64",
+            "blue": "#8AADF4",
+            "brightBlack": "#5B6078",
+            "brightBlue": "#8AADF4",
+            "brightCyan": "#8BD5CA",
+            "brightGreen": "#A6DA95",
+            "brightPurple": "#F5BDE6",
+            "brightRed": "#ED8796",
+            "brightWhite": "#B8C0E0",
+            "brightYellow": "#EED49F",
+            "cursorColor": "#F4DBD6",
+            "cyan": "#8BD5CA",
+            "foreground": "#CAD3F5",
+            "green": "#A6DA95",
+            "name": "Catppuccin Macchiato",
+            "purple": "#F5BDE6",
+            "red": "#ED8796",
+            "selectionBackground": "#5B6078",
+            "white": "#B8C0E0",
+            "yellow": "#EED49F"
+        },
+        {
+            "background": "#1E1E2E",
+            "black": "#45475A",
+            "blue": "#89B4FA",
+            "brightBlack": "#585B70",
+            "brightBlue": "#89B4FA",
+            "brightCyan": "#94E2D5",
+            "brightGreen": "#A6E3A1",
+            "brightPurple": "#F5C2E7",
+            "brightRed": "#F38BA8",
+            "brightWhite": "#A6ADC8",
+            "brightYellow": "#F9E2AF",
+            "cursorColor": "#F5E0DC",
+            "cyan": "#94E2D5",
+            "foreground": "#CDD6F4",
+            "green": "#A6E3A1",
+            "name": "Catppuccin Mocha",
+            "purple": "#F5C2E7",
+            "red": "#F38BA8",
+            "selectionBackground": "#585B70",
+            "white": "#BAC2DE",
+            "yellow": "#F9E2AF"
+        },
+        {
+            "background": "#1E1F29",
+            "black": "#000000",
+            "blue": "#BD93F9",
+            "brightBlack": "#555555",
+            "brightBlue": "#BD93F9",
+            "brightCyan": "#8BE9FD",
+            "brightGreen": "#50FA7B",
+            "brightPurple": "#FF79C6",
+            "brightRed": "#FF5555",
+            "brightWhite": "#FFFFFF",
+            "brightYellow": "#F1FA8C",
+            "cursorColor": "#BBBBBB",
+            "cyan": "#8BE9FD",
+            "foreground": "#F8F8F2",
+            "green": "#50FA7B",
+            "name": "Dracula",
+            "purple": "#FF79C6",
+            "red": "#FF5555",
+            "selectionBackground": "#44475A",
+            "white": "#BBBBBB",
+            "yellow": "#F1FA8C"
+        },
+        {
+            "background": "#212121",
+            "black": "#21222C",
+            "blue": "#82AAFF",
+            "brightBlack": "#545454",
+            "brightBlue": "#D6ACFF",
+            "brightCyan": "#A4FFFF",
+            "brightGreen": "#69FF94",
+            "brightPurple": "#FF92DF",
+            "brightRed": "#FF6E6E",
+            "brightWhite": "#F8F8F2",
+            "brightYellow": "#FFCB6B",
+            "cursorColor": "#ECEFF4",
+            "cyan": "#8BE9FD",
+            "foreground": "#F8F8F2",
+            "green": "#50FA7B",
+            "name": "Dracula+",
+            "purple": "#C792EA",
+            "red": "#FF5555",
+            "selectionBackground": "#F8F8F2",
+            "white": "#F8F8F2",
+            "yellow": "#FFCB6B"
+        },
+        {
+            "background": "#1E1E1E",
+            "black": "#343935",
+            "blue": "#4C9AD4",
+            "brightBlack": "#595B59",
+            "brightBlue": "#135979",
+            "brightCyan": "#76BBCA",
+            "brightGreen": "#767F2C",
+            "brightPurple": "#604291",
+            "brightRed": "#D18FA6",
+            "brightWhite": "#B2B5AE",
+            "brightYellow": "#78592F",
+            "cursorColor": "#EDCF4F",
+            "cyan": "#389AAD",
+            "foreground": "#F7F6EC",
+            "green": "#7BB75B",
+            "name": "Japanesque",
+            "purple": "#A57FC4",
+            "red": "#CF3F61",
+            "selectionBackground": "#175877",
+            "white": "#FAFAF6",
+            "yellow": "#E9B32A"
+        },
+        {
+            "background": "#1F1F28",
+            "black": "#1F1F28",
+            "blue": "#658594",
+            "brightBlack": "#2A2A37",
+            "brightBlue": "#7FB4CA",
+            "brightCyan": "#A3D4D5",
+            "brightGreen": "#98BB6C",
+            "brightPurple": "#D27E99",
+            "brightRed": "#FF5D62",
+            "brightWhite": "#DCD7BA",
+            "brightYellow": "#E6C384",
+            "cursorColor": "#DCD7BA",
+            "cyan": "#9CABCA",
+            "foreground": "#DCD7BA",
+            "green": "#76946A",
+            "name": "Kanagawa",
+            "purple": "#957FB8",
+            "red": "#E82424",
+            "selectionBackground": "#2A2A37",
+            "white": "#DCD7BA",
+            "yellow": "#FF9E3B"
+        },
+        {
+            "background": "#241B30",
+            "black": "#241B30",
+            "blue": "#6E29AD",
+            "brightBlack": "#7F7094",
+            "brightBlue": "#AA54F9",
+            "brightCyan": "#00FBFD",
+            "brightGreen": "#0AE4A4",
+            "brightPurple": "#FF00F6",
+            "brightRed": "#E60A70",
+            "brightWhite": "#F2F2E3",
+            "brightYellow": "#F9F972",
+            "cursorColor": "#F2F2E3",
+            "cyan": "#00B0B1",
+            "foreground": "#F2F2E3",
+            "green": "#00986C",
+            "name": "SynthwaveAlpha",
+            "purple": "#B300AD",
+            "red": "#E60A70",
+            "selectionBackground": "#6E29AD",
+            "white": "#B9B1BC",
+            "yellow": "#ADAD3E"
+        },
+        {
+            "background": "#16161E",
+            "black": "#363B54",
+            "blue": "#7AA2F7",
+            "brightBlack": "#363B54",
+            "brightBlue": "#7AA2F7",
+            "brightCyan": "#7DCFFF",
+            "brightGreen": "#41A6B5",
+            "brightPurple": "#BB9AF7",
+            "brightRed": "#F7768E",
+            "brightWhite": "#ACB0D0",
+            "brightYellow": "#E0AF68",
+            "cursorColor": "#FFFFFF",
+            "cyan": "#7DCFFF",
+            "foreground": "#787C99",
+            "green": "#41A6B5",
+            "name": "TokyoNight",
+            "purple": "#BB9AF7",
+            "red": "#F7768E",
+            "selectionBackground": "#FFFFFF",
+            "white": "#787C99",
+            "yellow": "#E0AF68"
+        },
+        {
+            "background": "#000000",
+            "black": "#878787",
+            "blue": "#44B4CC",
+            "brightBlack": "#555555",
+            "brightBlue": "#0000FF",
+            "brightCyan": "#00FFFF",
+            "brightGreen": "#00FF00",
+            "brightPurple": "#FF00FF",
+            "brightRed": "#FF0000",
+            "brightWhite": "#E5E5E5",
+            "brightYellow": "#FFFF00",
+            "cursorColor": "#FFFFFF",
+            "cyan": "#44B4CC",
+            "foreground": "#FFFFFF",
+            "green": "#CCFF04",
+            "name": "VibrantInk",
+            "purple": "#9933CC",
+            "red": "#FF6600",
+            "selectionBackground": "#B5D5FF",
+            "white": "#F5F5F5",
+            "yellow": "#FFCC00"
+        },
+        {
+            "background": "#000000",
+            "black": "#000000",
+            "blue": "#5555CC",
+            "brightBlack": "#555555",
+            "brightBlue": "#5555FF",
+            "brightCyan": "#55FFFF",
+            "brightGreen": "#55FF55",
+            "brightPurple": "#FF55FF",
+            "brightRed": "#FF5555",
+            "brightWhite": "#FFFFFF",
+            "brightYellow": "#FFFF55",
+            "cursorColor": "#53AE71",
+            "cyan": "#7ACACA",
+            "foreground": "#B3B3B3",
+            "green": "#55CC55",
+            "name": "Wez",
+            "purple": "#CC55CC",
+            "red": "#CC5555",
+            "selectionBackground": "#4D52F8",
+            "white": "#CCCCCC",
+            "yellow": "#CDCD55"
+        },
+        {
+            "background": "#0E101A",
+            "black": "#0E101A",
+            "blue": "#00A3CB",
+            "brightBlack": "#2B2F46",
+            "brightBlue": "#00B4E0",
+            "brightCyan": "#00B4E0",
+            "brightGreen": "#58DB9E",
+            "brightPurple": "#B3A1E6",
+            "brightRed": "#FF4821",
+            "brightWhite": "#B3B692",
+            "brightYellow": "#F6A100",
+            "cursorColor": "#EDF2C2",
+            "cyan": "#00A3CB",
+            "foreground": "#EBEFC0",
+            "green": "#5DCD97",
+            "name": "duckbones",
+            "purple": "#795CCC",
+            "red": "#E03600",
+            "selectionBackground": "#37382D",
+            "white": "#EBEFC0",
+            "yellow": "#E39500"
+        },
+        {
+            "background": "#1A1B26",
+            "black": "#15161E",
+            "blue": "#7AA2F7",
+            "brightBlack": "#414868",
+            "brightBlue": "#7AA2F7",
+            "brightCyan": "#7DCFFF",
+            "brightGreen": "#9ECE6A",
+            "brightPurple": "#BB9AF7",
+            "brightRed": "#F7768E",
+            "brightWhite": "#C0CAF5",
+            "brightYellow": "#E0AF68",
+            "cursorColor": "#C0CAF5",
+            "cyan": "#7DCFFF",
+            "foreground": "#C0CAF5",
+            "green": "#9ECE6A",
+            "name": "tokyonight",
+            "purple": "#BB9AF7",
+            "red": "#F7768E",
+            "selectionBackground": "#33467C",
+            "white": "#A9B1D6",
+            "yellow": "#E0AF68"
+        }
+    ],
+    "themes": []
+}

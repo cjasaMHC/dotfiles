@@ -1,0 +1,77 @@
+{
+  "$schema": "https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/main/themes/schema.json",
+  "final_space": true,
+  "version": 2,
+  "patch_pwsh_bleed": true,
+  "shell_integration": true,
+  "blocks": [
+    {
+      "alignment": "left",
+      "segments": [
+        {
+          "background": "#001021",
+          "foreground": "#f8f3eb",
+          "style": "diamond",
+          "template": "{{ .UserName }} ",
+          "type": "session",
+          "leading_diamond": ""
+        },
+        {
+          "background": "#2a4b38",
+          "foreground": "#f8f3eb",
+          "powerline_symbol": "",
+          "template": " {{ .Path }} ",
+          "properties": {
+            "style": "folder"
+          },
+          "style": "powerline",
+          "type": "path"
+        },
+        {
+          "background": "#b1e3ff",
+          "foreground": "#f8f3eb",
+          "powerline_symbol": "",
+          "properties": {
+            "branch_icon": "",
+            "fetch_stash_count": true,
+            "fetch_status": false,
+            "fetch_upstream_icon": true
+          },
+          "style": "powerline",
+          "template": "  ({{ .UpstreamIcon }}{{ .HEAD }}{{ if gt .StashCount 0 }}  {{ .StashCount }}{{ end }}) ",
+          "type": "git"
+        },
+        {
+          "background": "#8be9fd",
+          "foreground": "#f8f3eb",
+          "powerline_symbol": "",
+          "style": "powerline",
+          "template": "  {{ if .PackageManagerIcon }}{{ .PackageManagerIcon }} {{ end }}{{ .Full }} ",
+          "type": "node"
+        },
+        {
+          "background": "#d12229",
+          "foreground": "#f8f3eb",
+          "properties": {
+            "time_format": "15:04"
+          },
+          "style": "diamond",
+          "template": "⠀",
+          "trailing_diamond": "",
+          "type": "time"
+        },
+        {
+          "style": "plain",
+          "template": " ",
+          "type": "root"
+        }
+      ],
+      "type": "prompt"
+    }
+  ],
+  "transient_prompt": {
+    "background": "transparent",
+    "foreground": "#d12229",
+    "template": " ⛧ "
+  }
+}

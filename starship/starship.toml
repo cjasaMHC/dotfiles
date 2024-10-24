@@ -1,0 +1,78 @@
+scan_timeout = 10
+add_newline = true
+follow_symlinks = false
+
+
+
+# [metadata]
+# name = "nightfox"
+# author = "wjohnsto"
+# origin_url = "https://github.com/EdenEast/nightfox.nvim"
+
+"$schema" = "https://starship.rs/config-schema.json"
+
+palette = "nightfox"
+
+[palettes.nightfox]
+red = "#c94f6d"
+green = "#81b29a"
+purple = "#9d79d6"
+blue_hl = "#5ed8d6"
+yellow = "#dbc074"
+os_bg = "#71839b"
+os_fg = "#131a24"
+dir_bg = "#81b29a"
+dir_fg = "#192330"
+git_bg = "#dbc074"
+git_fg = "#212e3f"
+lang_bg = "#719cd6"
+lang_fg = "#29394f"
+
+[shell]
+disabled = false
+bash_indicator = ""
+pwsh_indicator = ""
+powershell_indicator = "󰨊"
+cmd_indicator = ""
+unknown_indicator = "??"
+# style = "fg:blue_hl"
+
+
+[username]
+show_always = true
+aliases = { "Administrator" = "root" }
+style_user = "fg:yellow"
+style_root = "fg:red"
+format = "[$user]($style)"
+
+[directory]
+style = "fg:lang_bg"
+format = " in [$path ]($style)"
+truncation_length = 3
+truncation_symbol = "… /"
+
+[directory.substitutions]
+"Documents" = "󰈙 "
+"Downloads" = " "
+"Music" = " "
+"Pictures" = " "
+"src" = " "
+
+[git_branch]
+symbol = ""
+style = "bg:git_bg"
+format = 'on [[$symbol $branch ](fg:git_bg)]($style)'
+
+[git_status]
+style = "bg:git_bg"
+format = '[[($all_status$ahead_behind )](fg:git_bg)]($style)'
+
+
+[character]
+disabled = false
+success_symbol = '[ ](bold fg:#81b29a)'
+error_symbol = '[ ](bold fg:#c94f6d)'
+vimcmd_symbol = '[ ](bold fg:green)'
+vimcmd_replace_one_symbol = '[ ](bold fg:purple)'
+vimcmd_replace_symbol = '[ ](bold fg:purple)'
+vimcmd_visual_symbol = '[ ](bold fg:yellow)'
