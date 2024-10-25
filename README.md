@@ -1,6 +1,6 @@
 # Welcome to my dotfiles
 
-![Orin](/pics/RinNoBG.png)
+![Orin](/pics/Th11Rin.png)
 
 
 
