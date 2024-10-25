@@ -20,13 +20,20 @@ My workflow revolves around 4 primary elements:
 - [Thorium (Chromium fork)](https://github.com/Alex313031/thorium)
   - [Windows Version](https://github.com/Alex313031/Thorium-Win)
 - [Firefox (Nightly)](https://www.mozilla.org/en-US/firefox/channel/desktop/)
+- [Surfingkeys (Browser Extension)](https://github.com/brookhong/Surfingkeys) - !!HIGHLY RECOMMEND!!
 - [Fzf](https://github.com/junegunn/fzf) - best fuzzy finder
 - [ripgrep](https://github.com/BurntSushi/ripgrep) - super fast grep
-- [bat(1)](https://github.com/sharkdp/bat) - cat with pretty colors (Better man pages w/batman)
-- [Fd](https://github.com/sharkdp/fd) - fast file filder
-- [Delta](https://github.com/dandavison/delta) - supperior git differ
+- [bat(1)](https://github.com/sharkdp/bat) - cat with pretty colors (better man pages w/batman)
+- [fd](https://github.com/sharkdp/fd) - fast file finder
+- [delta](https://github.com/dandavison/delta) - supperior git differ
 
 ---
+
+#### Notable Mentions
+
+- Configs that influenced my own:
+  - [thopn/dotfiles](https://github.com/theopn/dotfiles)
+  - [SuperCuber/dotfiles](https://github.com/SuperCuber/dotfiles)
 
 ## Special shoutout the one-and-only Terry A. Davis
 
