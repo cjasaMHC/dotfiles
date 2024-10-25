@@ -38,6 +38,7 @@ My workflow revolves around 4 primary elements:
 
 <details><summary><b>Click for Divine Intellect</b></summary>
 <h2>Special shoutout the one-and-only Terry A. Davis</h2>
-![RIP Terry](/pics/RIPTerry.jpg)
-**May he rest in peace ❤️**
-</details>
+<p>
+<img src="https://github.com/cjasaMHC/dotfiles/pics/RIPTerry.jpg" />
+<blockquote>May he rest in peace ❤️</blockquote>
+</p></details>
