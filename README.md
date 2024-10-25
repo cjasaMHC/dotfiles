@@ -27,6 +27,7 @@ My workflow revolves around 4 primary elements:
 - [fd](https://github.com/sharkdp/fd) - fast file finder
 - [delta](https://github.com/dandavison/delta) - supperior git differ
 
+![](https://komarev.com/ghpvc/?username=cjasaMHC)
 ---
 
 #### Notable Mentions
@@ -35,10 +36,8 @@ My workflow revolves around 4 primary elements:
   - [thopn/dotfiles](https://github.com/theopn/dotfiles)
   - [SuperCuber/dotfiles](https://github.com/SuperCuber/dotfiles)
 
-## Special shoutout the one-and-only Terry A. Davis
-
-
+<details><summary><b>Click for Divine Intellect</b></summary>
+<h2>Special shoutout the one-and-only Terry A. Davis</h2>
 ![RIP Terry](/pics/RIPTerry.jpg)
-
-
 **May he rest in peace ❤️**
+</details>
