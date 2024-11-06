@@ -42,14 +42,15 @@ wez.on("smart_workspace_switcher.workspace_switcher.selected", function(window, 
 	resurrect.save_state(workspace_state.get_workspace_state())
 end)
 
-config.max_fps = 75
-config.animation_fps = 75
+-- config.enable_kitty_graphics = true
+config.max_fps = 120
+config.animation_fps = 120
 config.window_padding = { left = "1cell", right = "1cell", top = "0.5cell", bottom = 0 }
 
 -- Settings
 workspace_switcher.apply_to_config(config)
 
--- config.term = "wezterm"
+config.term = "wezterm"
 config.wsl_domains = {
 	{
 		-- The name of this specific domain.  Must be unique amonst all types
@@ -213,7 +214,7 @@ config.keys = {
 	},
 	-- Key table for moving tabs around
 	{ key = "m", mods = "LEADER", action = act.ActivateKeyTable({ name = "move_mode", one_shot = false }) },
-	{ key = "b", mods = "LEADER", action = act.ActivateKeyTable({ name = "scroll_mode", one_shot = false }) },
+	{ key = "i", mods = "LEADER", action = act.ActivateKeyTable({ name = "scroll_mode", one_shot = false }) },
 	-- Or shortcuts to move tab w/o move_tab table. SHIFT is for when caps lock is on
 	{ key = "{", mods = "LEADER|SHIFT", action = act.MoveTabRelative(-1) },
 	{ key = "}", mods = "LEADER|SHIFT", action = act.MoveTabRelative(1) },
@@ -248,8 +249,12 @@ config.key_tables = {
 		{ key = "Enter", action = "PopKeyTable" },
 	},
 	scroll_mode = {
-		{ key = "k", action = act.ScrollByPage(-1) },
-		{ key = "j", action = act.ScrollByPage(1) },
+		{ key = "b", action = act.ScrollByPage(-1) },
+		{ key = "f", action = act.ScrollByPage(1) },
+		{ key = "u", action = act.ScrollByPage(-0.5) },
+		{ key = "d", action = act.ScrollByPage(0.5) },
+		{ key = "k", action = act.ScrollByLine(-1) },
+		{ key = "j", action = act.ScrollByLine(1) },
 		{ key = "Escape", action = "PopKeyTable" },
 		{ key = "Enter", action = "PopKeyTable" },
 	},
@@ -261,19 +266,19 @@ tabline.setup({
 		theme = "nightfox",
 		color_overrides = {
 			resize_mode = {
-				a = { fg = "#192330", bg = "#1d546e" },
-				b = { fg = "#1d546e", bg = "#192330" },
-				c = { fg = "#1d546e", bg = "#192330" },
+				a = { fg = "#192330", bg = "#9d79d6" },
+				b = { fg = "#9d79d6", bg = "#192330" },
+				c = { fg = "#9d79d6", bg = "#192330" },
 			},
 			move_mode = {
-				a = { fg = "#192330", bg = "#6074fb" },
-				b = { fg = "#6074fb", bg = "#192330" },
-				c = { fg = "#6074fb", bg = "#192330" },
+				a = { fg = "#192330", bg = "#c94f6d" },
+				b = { fg = "#c94f6d", bg = "#192330" },
+				c = { fg = "#c94f6d", bg = "#192330" },
 			},
 			scroll_mode = {
-				a = { fg = "#192330", bg = "#438276" },
-				c = { fg = "#438276", bg = "#192330" },
-				b = { fg = "#438276", bg = "#192330" },
+				a = { fg = "#192330", bg = "#63cdcf" },
+				c = { fg = "#63cdcf", bg = "#192330" },
+				b = { fg = "#63cdcf", bg = "#192330" },
 			},
 		},
 	},
